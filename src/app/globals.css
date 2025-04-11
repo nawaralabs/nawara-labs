@@ -17,6 +17,8 @@ body {
 }
 
 body {
+  margin: 0;
+  padding: 0;
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
@@ -39,4 +41,47 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+/* Centering your content */
+.center-content {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Pushes content towards top */
+  align-items: center;
+  text-align: center;
+  padding-top: -20px; /* Distance from top of the page */
+}
+
+/* Logo control */
+header img {
+  display: block;
+  margin: 0 auto;
+  max-width: 50%;
+  height: auto;
+  margin-bottom: -200px; /* Gap between logo and writing */
+}
+/* Logo positioning */
+header img {
+  display: block;
+  margin: 0 auto;
+  width: 800px;
+  height: auto;
+  margin-bottom: -180px; /* Less gap between logo & text */
+  margin-top: -80px;    /* Move logo higher */
+}
+
+/* Main Content Styling */
+.center-content h1 {
+  font-size: 4.0rem; /* Bigger Title */
+  font-weight: 800;  /* Extra Bold */
+  margin-bottom: -500px;
+}
+
+.center-content p {
+  font-size: 1.5rem;  /* Bigger Paragraph */
+  max-width: 80%;     /* Limit line length */
+  line-height: 45.6;
+  opacity: 0.9;       /* Softer color */
 }
