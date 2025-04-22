@@ -13,17 +13,29 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "Nawara Labs",
-  description: "Smart Landing Pages & Automation Systems for Small Businesses",
+  description: "Landing Pages & Automation Systems for Small Businesses",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
-        <header className="full-logo">
-          <img src="/logo.png" alt="Nawara Labs Logo" />
-        </header>
-        {children}
+
+        {/* Background Floating Spirals */}
+        <div className="spirals">
+          <div className="spiral"></div>
+          
+        </div>
+
+        {/* Centered Main Logo & Content */}
+        <main className="center-content">
+          <header className="full-logo">
+            <img src="/logo.png" alt="Nawara Labs Logo" className="main-logo" />
+          </header>
+
+          {children}
+        </main>
+
       </body>
     </html>
   );
