@@ -11,7 +11,7 @@ export default function Home() {
       title: 'Custom Landing Page — built to turn traffic into leads',
       why: 'Most websites don’t convert.',
       what: 'We build custom landing pages.',
-      how: 'Designed to turn visitors into customers with conversion-focused layouts.',
+      how: 'Designed to turn visitors into customers with coxnversion-focused layouts.',
     },
     {
       id: 'followups',
