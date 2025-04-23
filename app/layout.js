@@ -14,6 +14,9 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "Nawara Labs",
   description: "Landing Pages & Automation Systems for Small Businesses",
+  icons: {
+    icon: '/favicon.ico', // <-- make sure this filename matches the new one you added
+  },
 };
 
 export default function RootLayout({ children }) {
