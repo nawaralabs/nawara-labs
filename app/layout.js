@@ -15,11 +15,7 @@ export const metadata = {
   title: "Nawara Labs",
   description: "Landing Pages & Automation Systems for Small Businesses",
   icons: {
-    icon: "/favicon.ico",
-    shortcut: "/favicon-32x32.png",
-    apple: "/apple-touch-icon.png",
-  },
-  manifest: "/site.webmanifest",
+    icon: "/favicon.ico",},
 };
 
 export default function RootLayout({ children }) {
