@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import { supabase } from '../lib/supabaseClient';
 
 export default function Home() {
   const [activeService, setActiveService] = useState(null);
@@ -52,7 +53,7 @@ export default function Home() {
         <div className="services-list">
           <h3>Client Launch Offer</h3>
           <p>
-          We believe growth should be smarter — not harder.
+          Less Work. More Growth.
           If you're one of our first 5 , we’ll build your full client acquisition system to prove it.”
           </p>
           <ul className="offer-highlights">
