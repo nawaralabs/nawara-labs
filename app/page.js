@@ -10,9 +10,10 @@ export default function Home() {
     {
       id: 'websites',
       title: 'Custom Landing Page — built to turn traffic into leads',
-      why: 'Most websites don’t convert.',
-      what: 'We build custom landing pages.',
-      how: 'Designed to turn visitors into customers with coxnversion-focused layouts.',
+      who: 'Local businesses, service providers, and solo entrepreneurs who want more leads without spending more on ads.',
+      why: 'Most small businesses bleed leads because their websites are slow, confusing, or generic. You only get one chance to make a digital first impression.',
+      what: 'A sleek, conversion-optimized landing page tailored to your brand — with persuasive messaging, lightning-fast load times, and a call-to-action that turns clicks into customers.',
+      how: 'We handle the writing, design, and tech. You give us your input, and we deliver a launch-ready page synced with your forms, calendars, or CRM.',
     },
     {
       id: 'followups',
@@ -53,7 +54,9 @@ export default function Home() {
         <div className="services-list">
           <h3>Client Launch Offer</h3>
           <p>
-          Less Work. More Growth.
+          Work Less. Grow More.
+          </p>
+          <p>
           If you're one of our first 5 , we’ll build your full client acquisition system to prove it.”
           </p>
           <ul className="offer-highlights">
@@ -121,6 +124,10 @@ export default function Home() {
           {activeService ? (
             <>
               <h4>{activeService.title}</h4>
+              <p>
+                <strong>Who it's for:</strong> {activeService.who}
+              </p>
+
               <p>
                 <strong>Why:</strong> {activeService.why}
               </p>
