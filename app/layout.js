@@ -19,7 +19,10 @@ export const metadata = {
     shortcut: '/favicon-16x16.png',
     apple: '/apple-touch-icon.png',
   },
-  manifest: '/site.webmanifest'
+  manifest: '/site.webmanifest',
+  verification: {
+    google: "74czvLzfZJtQ5qQpBXTiR8s7rBtpp-JtKjQ-xypYoRs"
+  }
 };
 export default function RootLayout({ children }) {
   return (
