@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://nawaralabs.com
+
+# Sitemaps
+Sitemap: https://nawaralabs.com/sitemap.xml
